@@ -1,0 +1,35 @@
+body{
+    background-color: #f2c6bd;
+    
+}
+.logo>img {
+    height: 50px;
+}
+.header{
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+}
+.left{
+    background-color: green;
+    display: flex;
+}
+.right{
+    background-color: red;
+    display: flex;
+}
+.action-button > button {
+    background-color: #121692;
+    border:none;
+    color:white;
+    /*padding: top right bottom left;*/
+
+    padding: 10px 15px 10px 15px;
+}
+.menu>a{
+    color: black;
+    text-decoration: none;
+  
+
+    
+}
