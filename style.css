@@ -1,6 +1,15 @@
 body{
     background-color: #f2c6bd;
-    
+
+     font-family: myfont;
+}
+@font-face{
+    font-family: myfont;
+    src: url(./fonts/RobotoCondensed-Regular.ttf);
+}
+button,a,p{
+    font-family: myfont;
+    src: url(./fonts/RobotoCondensed-Regular.ttf)
 }
 .logo>img {
     height: 50px;
@@ -9,27 +18,88 @@ body{
     display:flex;
     width:100%;
     justify-content:space-around;
+    padding-top: 35px;
 }
 .left{
-    background-color: green;
     display: flex;
+    align-items: center;
+    gap: 15px;
+    
 }
+.company-info{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-left: 15px;
+}
+
+.logo-img{
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid #f2e7e1;
+    box-shadow: 0px 0px 5px rgb(19, 19, 19,0.2);
+    
+}
+
+.company-info > h2,p{
+    font-size: 18px;
+    margin: 0;
+}
+/* .company-info > p{
+    font-size: 18px;
+} */
 .right{
-    background-color: red;
+   
     display: flex;
+    align-items: center;
+    gap: 20px;
 }
-.action-button > button {
+/* .action-button > button{
     background-color: #121692;
     border:none;
     color:white;
-    /*padding: top right bottom left;*/
-
     padding: 10px 15px 10px 15px;
+    border-radius: 3px;
 }
+ */
+ 
+ .button-design {
+    border: none;
+    color: white;
+    /* padding: top right bottom left; */
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+    background-color: #3141c8;
+    
+ }
+
 .menu>a{
     color: black;
     text-decoration: none;
-  
+  margin-left: 15px;
+}
 
-    
+
+.main-right>img{
+    height: 60vh;
+}
+.main-section{
+    display: flex;
+
+}
+.main-left > h2{
+    font-size: 64px;
+}
+.learn-button{
+    background-color: white;
+    color: #3141c8;
+    border: 0;
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+    font-weight: 700;
+    border: 2px solid #f2e7e1;
+    box-shadow: 0px 0px 3px rgb(19, 19, 19,0.3);
+
+
 }
